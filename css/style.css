@@ -1136,12 +1136,21 @@ footer {
      font-size: 18px;
 }
 
-.footer-bottom span {
+.footer-bottom .heart {
      color: #a88920;
      display: inline-block;
      animation: heart 1.5s infinite;
 }
-
+.footer-bottom .last{
+     font-weight: bold;
+     color: #948513;
+     transition: 0.3s ease;
+     cursor: pointer;
+}
+.footer-bottom .last:hover{
+     letter-spacing: 1.5px;
+     border-bottom: 2px solid rgb(229, 204, 14) ;
+}
 @keyframes heart {
      0% {
           opacity: 0;
